@@ -11,7 +11,21 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
-
+    
+    @IBOutlet weak var reqLitresOutlet: WKInterfaceLabel!
+    
+    @IBOutlet weak var costOutlet: WKInterfaceLabel!
+    
+    @IBOutlet weak var distanceOutlet: WKInterfaceLabel!
+    
+    @IBOutlet weak var sliderOutlet: WKInterfaceSlider!
+    
+    @IBOutlet weak var showMileageOutlet: WKInterfaceButton!
+    
+    @IBAction func showMileageAction() {
+    }
+    
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         

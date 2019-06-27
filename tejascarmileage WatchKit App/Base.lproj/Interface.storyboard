@@ -20,8 +20,19 @@
                         <label alignment="left" text="Cost:" id="EYO-Kq-x4O"/>
                         <label alignment="left" text="Enter Distance:" id="3BE-PT-0Nf"/>
                         <slider width="1" alignment="left" value="1" maximum="3" steps="3" id="jyt-vB-sXR"/>
-                        <button width="1" alignment="left" title="Show Mileage" id="owa-DR-YHN"/>
+                        <button width="1" alignment="left" title="Show Mileage" id="owa-DR-YHN">
+                            <connections>
+                                <action selector="showMileageAction" destination="AgC-eL-Hgc" id="vLz-rw-oFX"/>
+                            </connections>
+                        </button>
                     </items>
+                    <connections>
+                        <outlet property="costOutlet" destination="EYO-Kq-x4O" id="Q1n-O0-TN2"/>
+                        <outlet property="distanceOutlet" destination="3BE-PT-0Nf" id="uVy-Q8-TUG"/>
+                        <outlet property="reqLitresOutlet" destination="gaH-hN-H5a" id="xRO-65-j0S"/>
+                        <outlet property="showMileageOutlet" destination="owa-DR-YHN" id="SCC-lG-iol"/>
+                        <outlet property="sliderOutlet" destination="jyt-vB-sXR" id="D9Y-Tg-PRL"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="220" y="344.5"/>
