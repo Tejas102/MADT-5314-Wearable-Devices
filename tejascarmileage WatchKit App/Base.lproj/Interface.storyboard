@@ -16,7 +16,7 @@
                     <items>
                         <label width="136" alignment="left" text="Tejas's Car" textAlignment="center" id="I8b-8P-eKh"/>
                         <imageView alignment="left" image="car1" id="HGo-wx-ZmH"/>
-                        <label width="136" alignment="left" text="No. of req. litres:" textAlignment="left" id="gaH-hN-H5a"/>
+                        <label width="136" alignment="left" text="No. of req.litres:" textAlignment="left" id="gaH-hN-H5a"/>
                         <label alignment="left" text="Cost:" id="EYO-Kq-x4O"/>
                         <label alignment="left" text="Enter Distance:" id="3BE-PT-0Nf"/>
                         <slider width="1" alignment="left" value="1" maximum="3" steps="3" id="jyt-vB-sXR"/>
