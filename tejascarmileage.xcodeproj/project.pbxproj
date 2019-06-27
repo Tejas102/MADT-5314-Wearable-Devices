@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		963267D522C5390E00D9582F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963267D422C5390E00D9582F /* AppDelegate.swift */; };
+		963267D722C5390E00D9582F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963267D622C5390E00D9582F /* ViewController.swift */; };
+		963267DA22C5390E00D9582F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963267D822C5390E00D9582F /* Main.storyboard */; };
+		963267DC22C5390F00D9582F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963267DB22C5390F00D9582F /* Assets.xcassets */; };
+		963267DF22C5390F00D9582F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963267DD22C5390F00D9582F /* LaunchScreen.storyboard */; };
+		963267E422C5390F00D9582F /* tejascarmileage WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 963267E322C5390F00D9582F /* tejascarmileage WatchKit App.app */; };
+		963267EA22C5390F00D9582F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963267E822C5390F00D9582F /* Interface.storyboard */; };
+		963267EC22C5390F00D9582F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963267EB22C5390F00D9582F /* Assets.xcassets */; };
+		963267F322C5391000D9582F /* tejascarmileage WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 963267F222C5391000D9582F /* tejascarmileage WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		963267F822C5391000D9582F /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963267F722C5391000D9582F /* InterfaceController.swift */; };
+		963267FA22C5391000D9582F /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963267F922C5391000D9582F /* ExtensionDelegate.swift */; };
+		963267FC22C5391000D9582F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963267FB22C5391000D9582F /* NotificationController.swift */; };
+		963267FE22C5391000D9582F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963267FD22C5391000D9582F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		963267E522C5390F00D9582F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 963267C922C5390E00D9582F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 963267E222C5390F00D9582F;
+			remoteInfo = "tejascarmileage WatchKit App";
+		};
+		963267F422C5391000D9582F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 963267C922C5390E00D9582F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 963267F122C5391000D9582F;
+			remoteInfo = "tejascarmileage WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9632680622C5391000D9582F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				963267F322C5391000D9582F /* tejascarmileage WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9632680A22C5391000D9582F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				963267E422C5390F00D9582F /* tejascarmileage WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		963267D122C5390E00D9582F /* tejascarmileage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tejascarmileage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		963267D422C5390E00D9582F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		963267D622C5390E00D9582F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		963267D922C5390E00D9582F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		963267DB22C5390F00D9582F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		963267DE22C5390F00D9582F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		963267E022C5390F00D9582F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963267E322C5390F00D9582F /* tejascarmileage WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tejascarmileage WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		963267E922C5390F00D9582F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		963267EB22C5390F00D9582F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		963267ED22C5390F00D9582F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963267F222C5391000D9582F /* tejascarmileage WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "tejascarmileage WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		963267F722C5391000D9582F /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		963267F922C5391000D9582F /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		963267FB22C5391000D9582F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		963267FD22C5391000D9582F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		963267FF22C5391000D9582F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9632680022C5391000D9582F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		963267CE22C5390E00D9582F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963267EF22C5391000D9582F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		963267C822C5390E00D9582F = {
+			isa = PBXGroup;
+			children = (
+				963267D322C5390E00D9582F /* tejascarmileage */,
+				963267E722C5390F00D9582F /* tejascarmileage WatchKit App */,
+				963267F622C5391000D9582F /* tejascarmileage WatchKit Extension */,
+				963267D222C5390E00D9582F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		963267D222C5390E00D9582F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				963267D122C5390E00D9582F /* tejascarmileage.app */,
+				963267E322C5390F00D9582F /* tejascarmileage WatchKit App.app */,
+				963267F222C5391000D9582F /* tejascarmileage WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		963267D322C5390E00D9582F /* tejascarmileage */ = {
+			isa = PBXGroup;
+			children = (
+				963267D422C5390E00D9582F /* AppDelegate.swift */,
+				963267D622C5390E00D9582F /* ViewController.swift */,
+				963267D822C5390E00D9582F /* Main.storyboard */,
+				963267DB22C5390F00D9582F /* Assets.xcassets */,
+				963267DD22C5390F00D9582F /* LaunchScreen.storyboard */,
+				963267E022C5390F00D9582F /* Info.plist */,
+			);
+			path = tejascarmileage;
+			sourceTree = "<group>";
+		};
+		963267E722C5390F00D9582F /* tejascarmileage WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				963267E822C5390F00D9582F /* Interface.storyboard */,
+				963267EB22C5390F00D9582F /* Assets.xcassets */,
+				963267ED22C5390F00D9582F /* Info.plist */,
+			);
+			path = "tejascarmileage WatchKit App";
+			sourceTree = "<group>";
+		};
+		963267F622C5391000D9582F /* tejascarmileage WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				963267F722C5391000D9582F /* InterfaceController.swift */,
+				963267F922C5391000D9582F /* ExtensionDelegate.swift */,
+				963267FB22C5391000D9582F /* NotificationController.swift */,
+				963267FD22C5391000D9582F /* Assets.xcassets */,
+				963267FF22C5391000D9582F /* Info.plist */,
+				9632680022C5391000D9582F /* PushNotificationPayload.apns */,
+			);
+			path = "tejascarmileage WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		963267D022C5390E00D9582F /* tejascarmileage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9632680B22C5391000D9582F /* Build configuration list for PBXNativeTarget "tejascarmileage" */;
+			buildPhases = (
+				963267CD22C5390E00D9582F /* Sources */,
+				963267CE22C5390E00D9582F /* Frameworks */,
+				963267CF22C5390E00D9582F /* Resources */,
+				9632680A22C5391000D9582F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				963267E622C5390F00D9582F /* PBXTargetDependency */,
+			);
+			name = tejascarmileage;
+			productName = tejascarmileage;
+			productReference = 963267D122C5390E00D9582F /* tejascarmileage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		963267E222C5390F00D9582F /* tejascarmileage WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9632680722C5391000D9582F /* Build configuration list for PBXNativeTarget "tejascarmileage WatchKit App" */;
+			buildPhases = (
+				963267E122C5390F00D9582F /* Resources */,
+				9632680622C5391000D9582F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				963267F522C5391000D9582F /* PBXTargetDependency */,
+			);
+			name = "tejascarmileage WatchKit App";
+			productName = "tejascarmileage WatchKit App";
+			productReference = 963267E322C5390F00D9582F /* tejascarmileage WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		963267F122C5391000D9582F /* tejascarmileage WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9632680322C5391000D9582F /* Build configuration list for PBXNativeTarget "tejascarmileage WatchKit Extension" */;
+			buildPhases = (
+				963267EE22C5391000D9582F /* Sources */,
+				963267EF22C5391000D9582F /* Frameworks */,
+				963267F022C5391000D9582F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tejascarmileage WatchKit Extension";
+			productName = "tejascarmileage WatchKit Extension";
+			productReference = 963267F222C5391000D9582F /* tejascarmileage WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		963267C922C5390E00D9582F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Tejas Jadhav";
+				TargetAttributes = {
+					963267D022C5390E00D9582F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					963267E222C5390F00D9582F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					963267F122C5391000D9582F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 963267CC22C5390E00D9582F /* Build configuration list for PBXProject "tejascarmileage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 963267C822C5390E00D9582F;
+			productRefGroup = 963267D222C5390E00D9582F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				963267D022C5390E00D9582F /* tejascarmileage */,
+				963267E222C5390F00D9582F /* tejascarmileage WatchKit App */,
+				963267F122C5391000D9582F /* tejascarmileage WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		963267CF22C5390E00D9582F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963267DF22C5390F00D9582F /* LaunchScreen.storyboard in Resources */,
+				963267DC22C5390F00D9582F /* Assets.xcassets in Resources */,
+				963267DA22C5390E00D9582F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963267E122C5390F00D9582F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963267EC22C5390F00D9582F /* Assets.xcassets in Resources */,
+				963267EA22C5390F00D9582F /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963267F022C5391000D9582F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963267FE22C5391000D9582F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		963267CD22C5390E00D9582F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963267D722C5390E00D9582F /* ViewController.swift in Sources */,
+				963267D522C5390E00D9582F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963267EE22C5391000D9582F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963267FC22C5391000D9582F /* NotificationController.swift in Sources */,
+				963267FA22C5391000D9582F /* ExtensionDelegate.swift in Sources */,
+				963267F822C5391000D9582F /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		963267E622C5390F00D9582F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 963267E222C5390F00D9582F /* tejascarmileage WatchKit App */;
+			targetProxy = 963267E522C5390F00D9582F /* PBXContainerItemProxy */;
+		};
+		963267F522C5391000D9582F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 963267F122C5391000D9582F /* tejascarmileage WatchKit Extension */;
+			targetProxy = 963267F422C5391000D9582F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		963267D822C5390E00D9582F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963267D922C5390E00D9582F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		963267DD22C5390F00D9582F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963267DE22C5390F00D9582F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		963267E822C5390F00D9582F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963267E922C5390F00D9582F /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9632680122C5391000D9582F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9632680222C5391000D9582F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9632680422C5391000D9582F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tejascarmileage WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = human.tejascarmileage.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		9632680522C5391000D9582F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tejascarmileage WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = human.tejascarmileage.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		9632680822C5391000D9582F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = tejascarmileage_WatchKit_Extension;
+				INFOPLIST_FILE = "tejascarmileage WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = human.tejascarmileage.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		9632680922C5391000D9582F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = tejascarmileage_WatchKit_Extension;
+				INFOPLIST_FILE = "tejascarmileage WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = human.tejascarmileage.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		9632680C22C5391000D9582F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tejascarmileage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = human.tejascarmileage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9632680D22C5391000D9582F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tejascarmileage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = human.tejascarmileage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		963267CC22C5390E00D9582F /* Build configuration list for PBXProject "tejascarmileage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9632680122C5391000D9582F /* Debug */,
+				9632680222C5391000D9582F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9632680322C5391000D9582F /* Build configuration list for PBXNativeTarget "tejascarmileage WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9632680422C5391000D9582F /* Debug */,
+				9632680522C5391000D9582F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9632680722C5391000D9582F /* Build configuration list for PBXNativeTarget "tejascarmileage WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9632680822C5391000D9582F /* Debug */,
+				9632680922C5391000D9582F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9632680B22C5391000D9582F /* Build configuration list for PBXNativeTarget "tejascarmileage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9632680C22C5391000D9582F /* Debug */,
+				9632680D22C5391000D9582F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 963267C922C5390E00D9582F /* Project object */;
+}
