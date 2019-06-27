@@ -12,6 +12,8 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
     
+    // watchkit
+    
     @IBOutlet weak var reqLitresOutlet: WKInterfaceLabel!
     
     @IBOutlet weak var costOutlet: WKInterfaceLabel!

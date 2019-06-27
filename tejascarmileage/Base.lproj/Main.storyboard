@@ -59,6 +59,10 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="distanceAction:" destination="8bC-Xf-vdC" eventType="editingDidEnd" id="GKc-NG-AoN"/>
+                                    <action selector="distanceAction:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="KSZ-A3-c8r"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="teh-Lj-MzV">
                                 <rect key="frame" x="174" y="262" width="165" height="30"/>
@@ -66,6 +70,10 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="speedAction:" destination="8bC-Xf-vdC" eventType="editingDidEnd" id="To1-Eq-TRc"/>
+                                    <action selector="speedAction:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="qxE-ye-5en"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xkw-j2-yjz">
                                 <rect key="frame" x="174" y="363" width="165" height="30"/>
@@ -73,6 +81,10 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="litresKmAction:" destination="8bC-Xf-vdC" eventType="editingDidEnd" id="Ehj-ic-TbD"/>
+                                    <action selector="litresKmAction:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="kqD-6F-TVb"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zuX-T7-Mnz">
                                 <rect key="frame" x="174" y="474" width="165" height="30"/>
@@ -80,16 +92,39 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="priceLitreAction:" destination="8bC-Xf-vdC" eventType="editingDidEnd" id="8OZ-rt-YW9"/>
+                                    <action selector="priceLitreAction:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="JkS-uu-P1G"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TuS-df-xL6">
                                 <rect key="frame" x="175" y="577" width="64" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Calculate"/>
+                                <connections>
+                                    <action selector="calculateAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vvy-hs-2Tv"/>
+                                    <action selector="calculateButtonAction:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="lgn-U5-80z"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Uee-0j-aNJ"/>
+                        <connections>
+                            <outlet property="distanceOutlet" destination="054-ag-LJz" id="IPn-gZ-IKZ"/>
+                            <outletCollection property="distanceOutletCollection" destination="054-ag-LJz" id="55Q-J0-tK2"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="calculateOutlet" destination="TuS-df-xL6" id="gof-Hn-AdS"/>
+                        <outlet property="distanceOutlet" destination="054-ag-LJz" id="64i-mA-KvF"/>
+                        <outlet property="litresKmOutlet" destination="xkw-j2-yjz" id="UuO-d4-1o9"/>
+                        <outlet property="priceLitreOutlet" destination="zuX-T7-Mnz" id="Y5y-EU-GvG"/>
+                        <outlet property="speedOutlet" destination="teh-Lj-MzV" id="vbp-mr-akB"/>
+                        <outletCollection property="distanceOutletCollection" destination="054-ag-LJz" collectionClass="NSMutableArray" id="0vF-3X-ejf"/>
+                        <outletCollection property="speedOutletCollection" destination="teh-Lj-MzV" collectionClass="NSMutableArray" id="5pi-zV-CxG"/>
+                        <outletCollection property="litresKmOutletCollection" destination="xkw-j2-yjz" collectionClass="NSMutableArray" id="uHE-98-E9d"/>
+                        <outletCollection property="priceLitreOutletCollection" destination="zuX-T7-Mnz" collectionClass="NSMutableArray" id="I4A-i1-1es"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
